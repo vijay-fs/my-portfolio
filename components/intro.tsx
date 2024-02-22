@@ -30,7 +30,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
+            {/* <Image
               src="/profile.jpeg"
               alt="portrait"
               width="192"
@@ -38,7 +38,7 @@ export default function Intro() {
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+            /> */}
           </motion.div>
 
           <motion.span
@@ -62,10 +62,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Vijay.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Rajasekaran D. </span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1.1 years</span> of organizational experience & 6 months as freelancer. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">3.2 years</span> of organizational
+        experience & 6 months as freelancer. I enjoy building{" "}
+        <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -98,7 +99,7 @@ export default function Intro() {
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/vijaypanneerselvam"
           target="_blank"
@@ -112,7 +113,7 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
-        </a>
+        </a> */}
       </motion.div>
     </section>
   );

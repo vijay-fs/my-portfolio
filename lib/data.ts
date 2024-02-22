@@ -38,45 +38,43 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "AGURCHAND MANMULL JAIN COLLEGE",
+    title: "Vels University",
     location: "Chennai, TN",
-    description:
-      "Graduated in B.sc. Computer Science.",
+    description: "Graduated in B.sc. Computer Science.                           ",
     icon: React.createElement(LuGraduationCap),
-    date: "2015 - 2018",
+    date: "2017-2020",
   },
   {
-    title: "Waterproofing Service (Self Employeed)",
+    title: "Tocode",
     location: "Chennai, TN",
-    description:
-      "Did waterproofing service for several construction sites.",
+    description: "",
     icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2021",
+    date: "2020-2024",
   },
-  {
-    title: "MERN Stack Developer (Freelancer)", 
-    location: "Chennai, TN",
-    description:
-      "I worked as a Freelancer for 6 months. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 (Feb) - 2022 (Aug)",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Bengaluru, KA.",
-    description:
-      "I worked as a full-stack developer in Altsys Technologies Private Limited. My stack includes ReactJS, JavaScript, Tailwind, NodeJS and MySQL.",
-    icon: React.createElement(FaReact),
-    date: "2022 (Aug) - 2022 (Nov)",
-  },
-  {
-    title: "React Native Developer",
-    location: "Bengaluru, KA.",
-    description:
-      "I worked as a React Native developer in Netsecure Technologies. My stack includes React Native, JavaScript and Redux-saga.",
-    icon: React.createElement(FaReact),
-    date: "2023 (Jan) - 2022 (Sep)",
-  },
+  // {
+  //   title: "MERN Stack Developer (Freelancer)",
+  //   location: "Chennai, TN",
+  //   description:
+  //     "I worked as a Freelancer for 6 months. I also upskilled to the full stack.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "2022 (Feb) - 2022 (Aug)",
+  // },
+  // {
+  //   title: "Full-Stack Developer",
+  //   location: "Bengaluru, KA.",
+  //   description:
+  //     "I worked as a full-stack developer in Altsys Technologies Private Limited. My stack includes ReactJS, JavaScript, Tailwind, NodeJS and MySQL.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2022 (Aug) - 2022 (Nov)",
+  // },
+  // {
+  //   title: "React Native Developer",
+  //   location: "Bengaluru, KA.",
+  //   description:
+  //     "I worked as a React Native developer in Netsecure Technologies. My stack includes React Native, JavaScript and Redux-saga.",
+  //   icon: React.createElement(FaReact),
+  //   date: "2023 (Jan) - 2022 (Sep)",
+  // },
 ] as const;
 
 export const projectsData = [
@@ -121,4 +119,17 @@ export const skillsData = [
   "Express",
   "Python",
   "Framer Motion",
+] as const;
+
+export const skillsData2 = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "React Native",
+  "Node.js",
+  "Git",
+  "Bootstrap",
+  "MongoDB",
+  "MySQL",
 ] as const;
