@@ -20,29 +20,26 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and ReactNative. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">Computer Science</span>, I embarked on a diverse journey
+        that shaped my perspective on technology and innovation. From hands-on construction work
+        to diving into{" "}
+        <span className="font-medium">full-stack development</span>,{" "}
+        <span className="italic">my favorite part of programming</span> is the
+        problem-solving aspect and the{" "}
+        <span className="underline">continuous learning curve</span>. I thrive on{" "}
+        <span className="font-medium">exploring emerging technologies</span> and adapting
+        to new frameworks, whether it's web development, mobile apps, or{" "}
+        <span className="font-medium">AI/ML innovations</span>.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">JAM stack</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I enjoy staying curious
+        about the world around me. I love{" "}
+        <span className="font-medium">experimenting with new tools</span>,
+        contributing to open-source projects, and exploring how technology can solve
+        real-world problems. My diverse background has taught me that{" "}
+        <span className="font-medium">every experience adds value</span> to my approach
+        as a developer.
       </p>
     </motion.section>
   );

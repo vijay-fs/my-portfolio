@@ -75,7 +75,15 @@ export const experiencesData = [
     description:
       "I worked as a React Native developer in Netsecure Technologies. My stack includes React Native, JavaScript and Redux-saga.",
     icon: React.createElement(FaReact),
-    date: "2023 (Jan) - 2022 (Sep)",
+    date: "2023 (Jan) - 2023 (Sep)",
+  },
+    {
+    title: "Frontend Developer",
+    location: "Chennai, TN.",
+    description:
+      "I'm working as a Frontend Developer in Coffee. My stack includes ReactJS, Next.js, React Native, Expo, Laravel, TypeScript, Php, and LLMs.",
+    icon: React.createElement(FaReact),
+    date: "2023 (Dec) - Present",
   },
 ] as const;
 
@@ -112,6 +120,8 @@ export const skillsData = [
   "React Native",
   "Next.js",
   "Node.js",
+  "Laravel",
+  "PHP",
   "Git",
   "Tailwind",
   "MongoDB",
@@ -120,5 +130,7 @@ export const skillsData = [
   "GraphQL",
   "Express",
   "Python",
+  "AI/ML",
+  "LLMs",
   "Framer Motion",
 ] as const;
